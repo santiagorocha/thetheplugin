@@ -1,2 +1,3 @@
 # thetheplugin
-Plugin for TheTHE platform consuming iocscraper API
+
+Plugin for TheTHE platform consuming dinoflux API
