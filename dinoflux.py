@@ -1,3 +1,14 @@
+'''
+This is a plugin made for the platform TheTHE (The Threat Hunting Environment) 
+that consumes the Dinoflux API.
+
+This source code is also available in https://github.com/santiagorocha/thetheplugin
+
+Author: Santiago Rocha.
+Github: https://github.com/santiagorocha
+Twitter: https://twitter.com/sarvmetal
+Linkedin: https://www.linkedin.com/in/santiago-rocha-62b38762/
+'''
 import requests
 import json
 import traceback
@@ -174,7 +185,7 @@ def get_reports(total_reports, query):
 
     return reports
 '''
-This function is in charge of determine the type of hash based on regex and
+This function is in charge of determine the type of hash based on
 lenght of the hash.
 '''
 def get_hash_type(hash):
